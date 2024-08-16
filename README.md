@@ -1,4 +1,4 @@
-# Translate App | V1.1
+# Face Swap App | V1.2
 
 ## How to use?
 - Take a picture or upload an image, take or upload the face you want to replace. Wait for your face to change!
