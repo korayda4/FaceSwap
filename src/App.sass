@@ -4,6 +4,7 @@
     padding: 0
     box-sizing: border-box
     font-family: 'Roboto', sans-serif
+    overflow: hidden
 
     
 .container
@@ -17,11 +18,32 @@
     background-image: url(/img/face-swap-bg.jpg)
     background-size: cover
 
+    .capture
+        position: absolute
+        bottom: 2%
+        left: 50%
+        transform: translateX(-50%)
+
+
+    .steps 
+        color: #3b3b3b
+        letter-spacing: 2px
+        display: flex
+        padding: 12px
+        width: 300px
+        flex-direction: column
+        gap: 12px
+        position: absolute
+        top: 2%
+        border-radius: 16px
+        background-color: #ff5500e3
+        align-items: center
+        justify-content: center
+
     p
-        font-size: clamp(0.9rem, 2vw, 1.3rem)
+        font-size: clamp(0.8rem, 2vw, 1.1rem)
         font-weight: 500
         color: #333
-        margin-bottom: 24px
 
     .add-image 
         display: flex

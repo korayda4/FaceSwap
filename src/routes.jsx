@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainPage from "./MainPage";
+import SwapFace from "./SwapFacePage";
 
 export const routes = createBrowserRouter([
     {
@@ -7,7 +8,7 @@ export const routes = createBrowserRouter([
         element: <MainPage />,
     },
     {
-        path: '/swap/:id',
-        element: <MainPage />,
+        path: '/swap',
+        element: <SwapFace />,
     }
 ]);
